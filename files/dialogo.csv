@@ -1,68 +1,61 @@
-﻿pedido-Gostaria de fazer um pedido
-pedido-Queria pedir umas polpas
-pedido-Queria fazer um pedido de polpas
-pedido-Quero realizar um pedido
-pedido-Bom dia queria umas polpas
-pedido-Boa tarde ainda aceitando pedidos?
-pedido-Ainda estão fazendo entregas?
-pedido-Posso fazer um pedido?
-pedido-Fazendo pedido ainda?
-pedido-Boa tarde, realizando entregas ainda?
-pedido-Bom dia, tudo bem?
-pedido-Bom dia, posso fazer um pedido ainda para hoje?
-pedido-Boa tarde, ainda está aberto para entregas?
-pedido-Boa tarde, aceitando pedidos para hoje?
-pedido-Estão entregando hoje ainda?
-pedido-aceitando pedidos?
-pedido-boa tarde
-pedido-bom dia
-pedido-Estão fazendo pedidos ainda?
-pedido-Entregando hoje ainda?
-pedido-quero umas polpas
-tabela-qual os valores dos seus produtos?
-tabela-qual os valores
-tabela-tem uma tabela de preços?
-tabela-tem tabelinha de preços
-tabela-valores dos seus produtos
-tabela-manda uma tabela de valores
-tabela-quanto é cada produto
-tabela-quais os valores
-tabela-manda pra mim o catálogo de preços
-tabela-quanto é cada polpinha   
+﻿saudacao-Bom dia
+saudacao-Boa tarde
+saudacao-bom dia tudo bem?
+saudacao-Olá tudo certo?
+saudacao-Bom dia, tudo certinho?
+saudacao-Boa noite
+saudacao-Bom dia tudo bem?
+saudacao-Olá
+saudacao-Oi
+saudacao-ois
+saudacao-oie, tá ai?
+saudacao-Bom dia, tudo bem?
+saudacao-Tudo certo?
+saudacao-Bão?
+saudacao-tudo bem?
+saudacao-como vai você?
+tabela-quais são os valores dos seus produtos?
+tabela-qual os valores de produtos?
+tabela-qual os preços das polpas?
+tabela-tabela de produtos
+tabela-manda pra mim a tabelinha de valores
+tabela-quero a sua tabela de preços
+tabela-quanto é seus produtos
+tabela-quais os valores das polpa
+tabela-tem cardápio ai?
+tabela-quanto é cada polpinha
 tabela-quanto é o pacote de polpa
 tabela-gostaria de saber os valores dos produtos
 tabela-queria saber os valores
-tabela-quanto é cada produto
-tabela-quais os valores dos seus produtos
-tabela-manda a tabelinha de preços
+tabela-quanto tá cada polpa?
+tabela-quais os sabores que tem?
+tabela-qual polpa tem aí?
 tabela-tem cardápio
 tabela-manda o cardápio
 tabela-tem um catálogozinho
 tabela-manda pra mim o catalgo de produtos
 tabela-lista de produtos?
-tabela-manda pra mim a lista dos produtos
-tabela-vc poderia me mandar a listagem dos seus produtos
-tabela-me envia a tabela
+tabela-manda um cardápio
+tabela-pode me mandar a tabela de preços
+tabela-me envia a tabela de valores dos produtos seus
 tabela-envia pra mim a tabela de preços
 pedido-Manda pra mim um abacaxi com hortelã e dois cajus
 pedido-queria dois pacotes de acerola
 pedido-quero 5 pct de maracujá
-pedido-manda duas unidades de melância
 pedido-queria 1 und de cupuaçu
 pedido-quero 9 pacotes de laranja e 2 pct de abacaxi
 pedido-4 morango 3 laranja com acerola
 pedido-2 abacaxi c hortela 5 acerola laranja
 pedido-dois morangos e uma goiaba
-pedido-uma tangerina e uma polpinha de goiaba
+pedido-um pacote de tangerina e uma polpinha de goiaba
 pedido-3 caju e 4 caja
 pedido-três pacotes de acerola e quatro abacaxi
 pedido-2 pct de abacaxi e um pct de amora
-pedido-quero cinco pct de melão caipira
 pedido-manda pra mim dois cupuaçu
 pedido-duas un de abacaxi e tres pacotes de manga
 pedido-sete unid de tangerina
 pedido-oito und de abacaxi
-pedido-cinco pacote de cajú
+pedido-cinco pacote de caju
 pedido-10 pc de abacaxi com hortela
 pedido-3 pact de manga
 pedido-dois pacotes de acerola
@@ -73,35 +66,75 @@ pedido-quatro mangas
 pedido-cinco acerola com laranja
 pedido-duas acerolas
 pedido-treze abacaxi hortela
-pedido-3 morango fruta
-pedido-2 morango polpa
-pedido-1 morango granel
-pedido-5 morango dosado
-pedido-2 morango dosadinho
-conta-quanto deu?
-conta-fica quanto?
-conta-quanto deu no total
+conta-fica quanto meu pedido?
+conta-quanto deu minha conta?
 conta-quanto eu te devo?
-conta-soma tudo
+conta-soma tudo minha conta
 conta-quanto ficou minha conta
-conta-deu quanto
+conta-deu quanto minha conta
 conta-a conta por favor
 conta-soma pra mim minha conta
-conta-total de quanto?
-conta-quanto ficou meu pedido?
-conta-meu pedido totalizou quanto?
+conta-total de quanto meu pedido?
+conta-quanto saiu meus produtos?
 conta-meu pedido foi de quanto?
-conta-soma pra mim meu pedido
-conta-meu pedido deu quanto?
-conta-meu total deu quanto?
-conta-soma pra gente quanto foi
-conta-daí fica quanto?
-conta-ficou qual valor
-conta-quero pagar
-conta-queria finalizar
-conta-finaliza a minha conta
-conta-fecha pra mim
-conta-fecha meu pedido
-conta-fecha e soma meu pedido
+conta-soma pra mim meu pedido fazendo favor
+conta-meu pedido deu quanto por favor
+conta-meu total saiu quanto?
+conta-soma pra gente quanto foi minha conta
+conta-daí fica quanto a conta
+conta-ficou qual valor a conta
+conta-quero pagar a minha conta
+conta-queria finalizar minha compra
+conta-finaliza a minha compra
+conta-fecha pra mim minha compra
+conta-fecha meu pedido por favor
+conta-fecha e soma meu pedido fazendo favor
 conta-fecha pra nos
 conta-soma meu pedido
+conta-fechou
+conta-finaliza
+conta-final
+conta-conta
+conta-continha
+conta-fecha
+cancelar-Não
+cancelar-Não quero
+cancelar-Cancela
+cancelar-cancelar
+cancelar-vou querer mais não
+cancelar-desisto
+cancelar-desisti
+cancelar-não precisa mais
+cancelar-não quero
+cancelar-eu não quero mais o pedido
+cancelar-eu não vou querer mais os produtos
+cancelar-no
+confirmar-sim
+confirmar-ok
+confirmar-sim por favor
+confirmar-isso
+confirmar-aham
+confirmar-uhum
+confirmar-uhn
+confirmar-isso mesmo
+confirmar-isso aí
+confirmar-desse jeito
+confirmar-aí sim
+confirmar-só vai
+confirmar-segue o baile
+confirmar-segue o jogo
+agradecimento-obrigado
+agradecimento-agradecido
+agradecimento-gracias
+agradecimento-muito obrigado
+agradecimento-brigado
+agradecimento-brigadão
+agradecimento-agradeço
+agradecimento-mutias gracias
+agradecimento-agradecido
+agradecimento-tchau brigado
+agradecimento-tchau tchau
+agradecimento-fui
+agradecimento-valeu
+agradecimento-vlw falou
+agradecimento-falou
