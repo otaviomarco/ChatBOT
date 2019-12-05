@@ -39,6 +39,8 @@ tabela-manda um cardápio
 tabela-pode me mandar a tabela de preços
 tabela-me envia a tabela de valores dos produtos seus
 tabela-envia pra mim a tabela de preços
+pedido-eu quero
+pedido-quero
 pedido-Manda pra mim um abacaxi com hortelã e dois cajus
 pedido-queria dois pacotes de acerola
 pedido-quero 5 pct de maracujá
@@ -98,16 +100,14 @@ conta-conta
 conta-continha
 conta-fecha
 cancelar-Não
-cancelar-Não quero
 cancelar-Cancela
 cancelar-cancelar
-cancelar-vou querer mais não
+cancelar-vou mais não
 cancelar-desisto
 cancelar-desisti
 cancelar-não precisa mais
-cancelar-não quero
-cancelar-eu não quero mais o pedido
-cancelar-eu não vou querer mais os produtos
+cancelar-eu não mais o pedido
+cancelar-eu não vou mais os produtos
 cancelar-no
 confirmar-sim
 confirmar-ok
@@ -132,9 +132,9 @@ agradecimento-brigadão
 agradecimento-agradeço
 agradecimento-mutias gracias
 agradecimento-agradecido
-agradecimento-tchau brigado
-agradecimento-tchau tchau
-agradecimento-fui
-agradecimento-valeu
-agradecimento-vlw falou
-agradecimento-falou
+saida-tchau brigado
+saida-tchau tchau
+saida-fui
+saida-valeu
+saida-vlw falou
+saida-falou

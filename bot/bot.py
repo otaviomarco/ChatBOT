@@ -43,6 +43,12 @@ class Bot:
                 self.intencoes.append(s[0])
                 self.dialogos.append(s[1])
 
+        with open('../files/produtos.csv', 'r', encoding = 'utf-8-sig') as file:
+            for line in file:
+                s = line.replace("\n", "").split(';')
+                self.intencoes.append('pedido')
+                self.dialogos.append(s[0])
+
         y = np.array(self.intencoes)
         x = self.vectorizer.fit_transform(self.dialogos)
 
