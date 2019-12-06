@@ -7,6 +7,9 @@ saudacao-Boa noite
 saudacao-Bom dia tudo bem?
 saudacao-Olá
 saudacao-Oi
+saudacao-tarde boa
+saudacao-tarde
+saudacao-alo
 saudacao-ois
 saudacao-oie, tá ai?
 saudacao-Bom dia, tudo bem?
@@ -41,6 +44,7 @@ tabela-me envia a tabela de valores dos produtos seus
 tabela-envia pra mim a tabela de preços
 pedido-eu quero
 pedido-quero
+pedido-pedir
 pedido-Manda pra mim um abacaxi com hortelã e dois cajus
 pedido-queria dois pacotes de acerola
 pedido-quero 5 pct de maracujá
@@ -68,20 +72,23 @@ pedido-quatro mangas
 pedido-cinco acerola com laranja
 pedido-duas acerolas
 pedido-treze abacaxi hortela
-conta-fica quanto meu pedido?
-conta-quanto deu minha conta?
-conta-quanto eu te devo?
-conta-soma tudo minha conta
-conta-quanto ficou minha conta
+conta-conta
+conta-quanto a conta
+conta-conta foi quanto
+conta-conta por favor
+conta-conta deu
 conta-deu quanto minha conta
 conta-a conta por favor
 conta-soma pra mim minha conta
-conta-total de quanto meu pedido?
-conta-quanto saiu meus produtos?
-conta-meu pedido foi de quanto?
-conta-soma pra mim meu pedido fazendo favor
-conta-meu pedido deu quanto por favor
-conta-meu total saiu quanto?
+conta-total
+conta-total pra fechar
+conta-fecha aqui
+conta-fechando
+conta-total quanto
+conta-quanto deu no total
+conta-soma tudo e fecha
+conta-soma meu pedido e fecha
+conta-meu total saiu quanto
 conta-soma pra gente quanto foi minha conta
 conta-daí fica quanto a conta
 conta-ficou qual valor a conta
@@ -96,7 +103,6 @@ conta-soma meu pedido
 conta-fechou
 conta-finaliza
 conta-final
-conta-conta
 conta-continha
 conta-fecha
 cancelar-Não
@@ -116,13 +122,14 @@ confirmar-isso
 confirmar-aham
 confirmar-uhum
 confirmar-uhn
-confirmar-isso mesmo
-confirmar-isso aí
-confirmar-desse jeito
-confirmar-aí sim
-confirmar-só vai
-confirmar-segue o baile
-confirmar-segue o jogo
+confirmar-sim
+confirmar-só
+confirmar-segue
+confirmar-seguir
+confirmar-prosseguir
+confirmar-confirmar
+confirmar-confirmo
+confirmar-concordo
 agradecimento-obrigado
 agradecimento-agradecido
 agradecimento-gracias
