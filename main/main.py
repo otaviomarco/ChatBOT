@@ -4,6 +4,7 @@ from bot.bot import Bot
 import random
 
 produtos = dict()
+produtosPrecos = dict()
 carrinho = list()
 numeros = dict()
 frases_saudacao = list()
@@ -13,6 +14,13 @@ frases_conta = list()
 frases_confirmacao = list()
 frases_negacao = list()
 frases_agradecimento = list()
+pacotes = dict()
+
+def controiPacotes():
+    with open('../files/pacotes.csv', 'r', encoding = 'utf-8-sig') as file:
+        for line in file:
+            str, num = line.replace('\n', '').split(';')
+            pacotes[str] = int(num)
 
 def constroiRespostas():
     with open('../files/respostas.csv', 'r', encoding = 'utf-8-sig') as file:
@@ -37,8 +45,8 @@ def constroiRespostas():
 def constroiNumeros():
     with open('../files/numeros.csv', mode = 'r', encoding = 'utf-8-sig') as file:
         for line in file:
-            str, num = line.split(';')
-            numeros[str] = num
+            str, num = line.replace('\n', '').split(';')
+            numeros[str] = int(num)
 
 def somaConta(conta):
     #TODO
@@ -52,24 +60,25 @@ def exibeProdutos():
 def cardapio():
     with open('../files/precos.csv', 'r', encoding = 'utf-8-sig') as file:
         for line in file:
-            produto, valor = line.split(';')
-            produtos[produto] = valor
+            produto, valor = line.replace('\n', '').split(';')
+            produtosPrecos[produto] = valor
 
+def controiProdutos():
+    with open('../files/produtos.csv', 'r', encoding = 'utf-8-sig') as file:
+        for line in file:
+            chave, valor = line.replace('\n', '').replace(' ', '').split(';')
+            produtos[chave] = valor
 
-
-def adicionaCarrinho(produto, quantidade):
-    encontrou = False
-
-    for item in carrinho:
-        if item.get(produto) is not None:
-            item['quantidade'] += quantidade
-            encontrou = True
-            break
-
-    if not encontrou:
-        p = {'{}:{}'.format(produto, quantidade)}
+def adicionaCarrinho(lista_produto, lista_quantidade):
+    index = 0
+    #FIXME Corregir multiplicacao de pacotes
+    for index in range(len(lista_produto)):
+        preco = produtosPrecos.get(lista_produto[index])
+        print(preco)
+        p = {'{}:{}:{}'.format(lista_produto[index], lista_quantidade[index], lista_quantidade[index] * preco )}
         carrinho.append(p)
 
+    print(carrinho)
     print(random.choice(frases_pedido))
 
 def saida():
@@ -86,31 +95,39 @@ def verificarPedido(entrada):
     palavras = entrada.split(' ')
     quantidade = None
     produto = None
+    multiplicador = 1
     print(palavras)
 
+    lista_quantidades = list()
+    lista_produtos = list()
+    index = 0
     for palavra in palavras:
-        #TODO se for pedido 2 produtos na mesma frase?
-        quantidade = numeros.get(palavra)
-        produto = produtos.get(palavra)
-
+        if pacotes.get(palavra): multiplicador = pacotes.get(palavra)
+        if quantidade is None: quantidade = numeros.get(palavra)
+        if produto is None: produto = produtos.get(palavra)
         if palavra.isdigit(): quantidade = palavra
+        quantidade = 1 if quantidade is None else quantidade
 
-    if quantidade is not None and produto is not None:
-        quantidade = max(1, quantidade)
-        adicionaCarrinho(produto, quantidade)
+        if produto is not None:
+            lista_quantidades.append(int(quantidade) * multiplicador)
+            lista_produtos.append(produto)
 
-    else:
-        print('Não entendi seu pedido')
+            index += 1
+            quantidade = None
+            produto = None
+            multiplicador = 1
 
-
+    adicionaCarrinho(lista_produtos, lista_quantidades)
 
 def main():
     bot = Bot('../files/dialogo.csv')
     constroiNumeros()
     cardapio()
     constroiRespostas()
+    controiPacotes()
+    controiProdutos()
 
-    print('{h} Bem vindo a loja {h}\n'.format(h = '#'* 8))
+    print('{h} Bem vindo a SJN Polpas {h}\n'.format(h = '#'* 8))
     print(random.choice(frases_saudacao))
 
     loop = True
