@@ -26,53 +26,20 @@ class Bot:
         self.fit(arquivo)
 
     def buildAnswers(self):
-        saudacao = list()
-        tabela = list()
-        pedido = list()
-        conta = list()
-        confirmacao = list()
-        negacao = list()
-        agradecimento = list()
-        continuidade = list()
+        a = dict()
 
         with open('../files/respostas.csv', 'r', encoding = 'utf-8-sig') as file:
             for line in file:
                 intencao = line.replace('\n', '').split(';')[0]
                 frase = line.replace('\n', '').split(';')[1]
 
-                if intencao in 'saudacao':
-                    saudacao.append(frase)
+                if intencao in a.keys():
+                    novo = a.get(intencao)
+                    novo.append(frase)
+                    a[intencao] = novo
 
-                elif intencao in 'tabela':
-                    tabela.append(frase)
-
-                elif intencao in 'pedido':
-                    pedido.append(frase)
-
-                elif intencao in 'conta':
-                    conta.append(frase)
-
-                elif intencao in 'confirmacao':
-                    confirmacao.append(frase)
-
-                elif intencao in 'negacao':
-                    negacao.append(frase)
-
-                elif intencao in 'agradecimento':
-                    agradecimento.append(frase)
-
-                elif intencao in 'continuidade':
-                    continuidade.append(frase)
-
-        a = dict()
-        a['saudacao'] = saudacao
-        a['tabela'] = tabela
-        a['pedido'] = pedido
-        a['conta'] = conta
-        a['confirmacao'] = confirmacao
-        a['negacao'] = negacao
-        a['agradecimento'] = agradecimento
-        a['continuidade'] = continuidade
+                else:
+                    a[intencao] = [frase]
 
         return a
 
