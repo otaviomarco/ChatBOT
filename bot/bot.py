@@ -51,8 +51,13 @@ class Bot:
             return 'Em que posso ser útil?'
 
     def showMenu(self):
+        explode = 36
+        print('{h} Tabela de produtos {h}'.format(h='=' * 8, ))
+        print('Produto\t\t\t\t\t\t\tR$')
+        print('-' * explode)
         for key, value in self.listaProdutosPreco.items():
-            print('{} -> R$ {:0.2f}'.format(key, float(value)))
+            print('{}\t\t\t{:.2f}'.format(key.ljust(20, ' ').capitalize(), value))
+        print('-' * explode)
 
     def adicionarCarrinho(self, listaProduto, listaQuantidade):
         for index in range(len(listaProduto)):
@@ -147,13 +152,13 @@ class Bot:
 
         else:
             print('{h} Pedido número {p} {h}'.format(h = '=' * 8, p = choice(range(1000, 9999))))
-            print('#.\tProduto\t\t\tQtd.\tR$')
+            print('#.\tProduto\t\t\tQtd.\t R$')
             print('-' * explode)
             index = 1
             total = 0
             for item in self.cart:
                 for key, value in item.items():
-                    print('{}.\t{} \t\t{}\t\t{:.2f}'.format(index, key, value[0], value[1]))
+                    print('{}.\t{}\t\t{}\t\t{:.2f}'.format(index, key.ljust(10, ' '), value[0], value[1]))
                     index += 1
                     total += value[1]
             print('-' * explode)
