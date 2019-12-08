@@ -172,16 +172,16 @@ class Bot:
     def fecharConta(self):
         if len(self.cart) > 0:
             print('{h} Pedido número {p} {h}'.format(h = '=' * 8, p = choice(range(1000, 9999))))
-
+            print('#.\tproduto\t\t\tQtd.\tR$')
             index = 1
             total = 0
             for item in self.cart:
                 for key, value in item.items():
-                    print('{}. {} \t{}\t{:.2f}'.format(index, key, value[0], value[1]))
+                    print('{}.\t{} \t\t{}\t\t{:.2f}'.format(index, key, value[0], value[1]))
                     index += 1
                     total += value[1]
             print('-' * 36)
-            print('Total.\t\t\t{:.2f}'.format(total))
+            print('Total.\t\t\t\t\t\t{:.2f}'.format(total))
             print('=' * 36)
 
     def setClassificador(self, x):
