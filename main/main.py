@@ -34,8 +34,6 @@ def main():
         entrada = input()
         int = bot.predict(entrada)[0]
 
-        print(int)
-
         if int in 'saudacao':
             primeiraSaudacao = random.choice(range(0, 9))
             segundaSaudacao = random.choice(range(0, 9))
