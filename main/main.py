@@ -34,6 +34,8 @@ def main():
         entrada = input()
         int = bot.predict(entrada)[0]
 
+        print(int)
+
         if int in 'saudacao':
             primeiraSaudacao = random.choice(range(0, 9))
             segundaSaudacao = random.choice(range(0, 9))
@@ -71,13 +73,17 @@ def main():
         elif int in 'agradecimento':
             print(bot.escolherResposta('agradecimento'))
 
+        elif int in 'cancelar':
+            print(bot.escolherResposta('agradecimento'))
+            loop = False
+
         elif int in 'saida':
             print('Deseja realmente sair?')
             entrada = input()
 
             int = bot.predict(entrada)[0]
 
-            if int in 'confirmar' or int in 'saida':
+            if int in ['confirmar', 'saida']:
                 if bot.totalItemsInCart() > 0:
                     bot.fecharConta()
                     print('Favor dirigir-se ao caixa!')

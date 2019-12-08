@@ -147,12 +147,17 @@ pedido;duas acerolas
 pedido;treze abacaxi hortela
 conta;conta
 conta;a conta
+saida;fechar
+saida;fecha a conta
+saida;sair
+saida;finalizar
+saida;encerra pra mim
 conta;quanto a conta
 conta;conta foi quanto
 conta;conta por favor
 conta;conta deu
 conta;minha conta
-conta;a conta por favor
+saida;a conta por favor
 conta;soma a conta
 conta;total
 conta;total conta
@@ -165,7 +170,7 @@ conta;soma minha conta
 conta;quanto deu a conta
 conta;conta
 conta;continha
-conta;fecha a conta
+saida;fecha a conta
 cancelar;Não
 cancelar;Cancela
 cancelar;cancelar
