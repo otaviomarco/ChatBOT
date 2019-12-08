@@ -1,4 +1,5 @@
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 ﻿saudacao;Bom dia
 saudacao;Boa tarde
 saudacao;bom dia tudo bem?
@@ -152,6 +153,8 @@ saida;até
 saida;xau
 saida;xau xau
 =======
+=======
+>>>>>>> Stashed changes
 ﻿saudacao;Bom dia
 saudacao;Boa tarde
 saudacao;bom dia tudo bem?
@@ -301,5 +304,9 @@ saida;tchau tchau
 saida;fui
 saida;valeu
 saida;vlw falou
+<<<<<<< Updated upstream
+saida;falou
+>>>>>>> Stashed changes
+=======
 saida;falou
 >>>>>>> Stashed changes
