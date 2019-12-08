@@ -1,9 +1,8 @@
-saudacao;seja bem vindo à SJN Polpas. Em que posso ser útil?
-saudacao;bem vindo(a) à SJN Polpas, posso anotar o seu pedido?
+saudacao;Em que posso ser útil?
+saudacao;posso anotar o seu pedido?
 saudacao;seja bem vindo a nossa loja. Posso anotar sua solicitação?
-saudacao;seja muito bem vindo, temos várias opções de polpas de frutas aqui na SJN Polpas.
-saudacao;como a SJN Polpas pode lhe atender?
-saudacao;bem vindo à SJN Polpas. Em que posso lhe atender?
+saudacao;seja muito bem vindo, temos várias opções de polpas de frutas aqui.
+saudacao;como posso lhe atender?
 saudacao;polpas de frutas é aqui mesmo na SJN Polpas. Como posso lhe ser útil?
 tabela;Nossa tabela de preços é essa.
 tabela;Esses são nossos produtos.
@@ -38,7 +37,11 @@ despedida;Até outra hora. ;)
 despedida;Até um outro dia.
 despedida;Até mais ver. =)
 despedida;Até mais, foi um prazer lhe atender.
-agradecimento;Muito obrigada pela preferência. ^_^
-agradecimento;Muito obrigada! =)
+agradecimento;Agradecemos pela preferência. ^_^
+agradecimento;Muito obrigado! =)
 agradecimento;Obrigada! =)
 agradecimento;Agradecida!
+continuidade;Ok, o que deseja agora?
+continuidade;Pronto. Algo mais?
+continuidade;E agora?
+continuidade;Foi... O que mais deseja?

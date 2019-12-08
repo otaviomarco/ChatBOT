@@ -1,152 +1,305 @@
-﻿saudacao-Bom dia
-saudacao-Boa tarde
-saudacao-bom dia tudo bem?
-saudacao-Olá tudo certo?
-saudacao-Bom dia, tudo certinho?
-saudacao-Boa noite
-saudacao-Bom dia tudo bem?
-saudacao-Olá
-saudacao-Oi
-saudacao-tarde boa
-saudacao-tarde
-saudacao-alo
-saudacao-ois
-saudacao-oie, tá ai?
-saudacao-Bom dia, tudo bem?
-saudacao-Tudo certo?
-saudacao-Bão?
-saudacao-tudo bem?
-saudacao-como vai você?
-tabela-quais são os valores dos seus produtos?
-tabela-qual os valores de produtos?
-tabela-qual os preços das polpas?
-tabela-tabela de produtos
-tabela-manda pra mim a tabelinha de valores
-tabela-quero a sua tabela de preços
-tabela-quanto é seus produtos
-tabela-quais os valores das polpa
-tabela-tem cardápio ai?
-tabela-quanto é cada polpinha
-tabela-quanto é o pacote de polpa
-tabela-gostaria de saber os valores dos produtos
-tabela-queria saber os valores
-tabela-quanto tá cada polpa?
-tabela-quais os sabores que tem?
-tabela-qual polpa tem aí?
-tabela-tem cardápio
-tabela-manda o cardápio
-tabela-tem um catálogozinho
-tabela-manda pra mim o catalgo de produtos
-tabela-lista de produtos?
-tabela-manda um cardápio
-tabela-pode me mandar a tabela de preços
-tabela-me envia a tabela de valores dos produtos seus
-tabela-envia pra mim a tabela de preços
-pedido-eu quero
-pedido-quero
-pedido-pedir
-pedido-Manda pra mim um abacaxi com hortelã e dois cajus
-pedido-queria dois pacotes de acerola
-pedido-quero 5 pct de maracujá
-pedido-queria 1 und de cupuaçu
-pedido-quero 9 pacotes de laranja e 2 pct de abacaxi
-pedido-4 morango 3 laranja com acerola
-pedido-2 abacaxi c hortela 5 acerola laranja
-pedido-dois morangos e uma goiaba
-pedido-um pacote de tangerina e uma polpinha de goiaba
-pedido-3 caju e 4 caja
-pedido-três pacotes de acerola e quatro abacaxi
-pedido-2 pct de abacaxi e um pct de amora
-pedido-manda pra mim dois cupuaçu
-pedido-duas un de abacaxi e tres pacotes de manga
-pedido-sete unid de tangerina
-pedido-oito und de abacaxi
-pedido-cinco pacote de caju
-pedido-10 pc de abacaxi com hortela
-pedido-3 pact de manga
-pedido-dois pacotes de acerola
-pedido-me ve três pcts de uva
-pedido-manda pra mim duas frutas vermelhas
-pedido-cinco tamarindos
-pedido-quatro mangas
-pedido-cinco acerola com laranja
-pedido-duas acerolas
-pedido-treze abacaxi hortela
-conta-conta
-conta-quanto a conta
-conta-conta foi quanto
-conta-conta por favor
-conta-conta deu
-conta-deu quanto minha conta
-conta-a conta por favor
-conta-soma pra mim minha conta
-conta-total
-conta-total pra fechar
-conta-fecha aqui
-conta-fechando
-conta-total quanto
-conta-quanto deu no total
-conta-soma tudo e fecha
-conta-soma meu pedido e fecha
-conta-meu total saiu quanto
-conta-soma pra gente quanto foi minha conta
-conta-daí fica quanto a conta
-conta-ficou qual valor a conta
-conta-quero pagar a minha conta
-conta-queria finalizar minha compra
-conta-finaliza a minha compra
-conta-fecha pra mim minha compra
-conta-fecha meu pedido por favor
-conta-fecha e soma meu pedido fazendo favor
-conta-fecha pra nos
-conta-soma meu pedido
-conta-fechou
-conta-finaliza
-conta-final
-conta-continha
-conta-fecha
-cancelar-Não
-cancelar-Cancela
-cancelar-cancelar
-cancelar-vou não
-cancelar-desisto
-cancelar-desisti
-cancelar-eu não mais o pedido
-cancelar-eu não vou mais os produtos
-cancelar-no
-confirmar-sim
-confirmar-ok
-confirmar-sim por favor
-confirmar-isso
-confirmar-aham
-confirmar-uhum
-confirmar-uhn
-confirmar-sim
-confirmar-só
-confirmar-segue
-confirmar-seguir
-confirmar-prosseguir
-confirmar-confirmar
-confirmar-confirmo
-confirmar-concordo
-agradecimento-obrigado
-agradecimento-agradecido
-agradecimento-gracias
-agradecimento-muito obrigado
-agradecimento-brigado
-agradecimento-brigadão
-agradecimento-agradeço
-agradecimento-mutias gracias
-agradecimento-agradecido
-saida-tchau
-saida-até
-saida-até mais
-saida-tchau tchau
-saida-fui
-saida-valeu
-saida-vlw falou
-saida-falou
-saida-chau
-saida-até
-saida-xau
-saida-xau xau
+<<<<<<< Updated upstream
+﻿saudacao;Bom dia
+saudacao;Boa tarde
+saudacao;bom dia tudo bem?
+saudacao;Olá tudo certo?
+saudacao;Bom dia, tudo certinho?
+saudacao;Boa noite
+saudacao;Bom dia tudo bem?
+saudacao;Olá
+saudacao;Oi
+saudacao;tarde boa
+saudacao;tarde
+saudacao;alo
+saudacao;ois
+saudacao;oie, tá ai?
+saudacao;Bom dia, tudo bem?
+saudacao;Tudo certo?
+saudacao;Bão?
+saudacao;tudo bem?
+saudacao;como vai você?
+tabela;quais são os valores dos seus produtos?
+tabela;qual os valores de produtos?
+tabela;qual os preços das polpas?
+tabela;tabela de produtos
+tabela;manda pra mim a tabelinha de valores
+tabela;quero a sua tabela de preços
+tabela;quanto é seus produtos
+tabela;quais os valores das polpa
+tabela;tem cardápio ai?
+tabela;quanto é cada polpinha
+tabela;quanto é o pacote de polpa
+tabela;gostaria de saber os valores dos produtos
+tabela;queria saber os valores
+tabela;quanto tá cada polpa?
+tabela;quais os sabores que tem?
+tabela;qual polpa tem aí?
+tabela;tem cardápio
+tabela;manda o cardápio
+tabela;tem um catálogozinho
+tabela;manda pra mim o catalgo de produtos
+tabela;lista de produtos?
+tabela;manda um cardápio
+tabela;pode me mandar a tabela de preços
+tabela;me envia a tabela de valores dos produtos seus
+tabela;envia pra mim a tabela de preços
+pedido;eu quero
+pedido;quero
+pedido;pedir
+pedido;Manda pra mim um abacaxi com hortelã e dois cajus
+pedido;queria dois pacotes de acerola
+pedido;quero 5 pct de maracujá
+pedido;queria 1 und de cupuaçu
+pedido;quero 9 pacotes de laranja e 2 pct de abacaxi
+pedido;4 morango 3 laranja com acerola
+pedido;2 abacaxi c hortela 5 acerola laranja
+pedido;dois morangos e uma goiaba
+pedido;um pacote de tangerina e uma polpinha de goiaba
+pedido;3 caju e 4 caja
+pedido;três pacotes de acerola e quatro abacaxi
+pedido;2 pct de abacaxi e um pct de amora
+pedido;manda pra mim dois cupuaçu
+pedido;duas un de abacaxi e tres pacotes de manga
+pedido;sete unid de tangerina
+pedido;oito und de abacaxi
+pedido;cinco pacote de caju
+pedido;10 pc de abacaxi com hortela
+pedido;3 pact de manga
+pedido;dois pacotes de acerola
+pedido;me ve três pcts de uva
+pedido;manda pra mim duas frutas vermelhas
+pedido;cinco tamarindos
+pedido;quatro mangas
+pedido;cinco acerola com laranja
+pedido;duas acerolas
+pedido;treze abacaxi hortela
+conta;conta
+conta;quanto a conta
+conta;conta foi quanto
+conta;conta por favor
+conta;conta deu
+conta;deu quanto minha conta
+conta;a conta por favor
+conta;soma pra mim minha conta
+conta;total
+conta;total pra fechar
+conta;fecha aqui
+conta;fechando
+conta;total quanto
+conta;quanto deu no total
+conta;soma tudo e fecha
+conta;soma meu pedido e fecha
+conta;meu total saiu quanto
+conta;soma pra gente quanto foi minha conta
+conta;daí fica quanto a conta
+conta;ficou qual valor a conta
+conta;quero pagar a minha conta
+conta;queria finalizar minha compra
+conta;finaliza a minha compra
+conta;fecha pra mim minha compra
+conta;fecha meu pedido por favor
+conta;fecha e soma meu pedido fazendo favor
+conta;fecha pra nos
+conta;soma meu pedido
+conta;fechou
+conta;finaliza
+conta;final
+conta;continha
+conta;fecha
+cancelar;Não
+cancelar;Cancela
+cancelar;cancelar
+cancelar;vou não
+cancelar;desisto
+cancelar;desisti
+cancelar;eu não mais o pedido
+cancelar;eu não vou mais os produtos
+cancelar;no
+confirmar;sim
+confirmar;ok
+confirmar;sim por favor
+confirmar;isso
+confirmar;aham
+confirmar;uhum
+confirmar;uhn
+confirmar;sim
+confirmar;só
+confirmar;segue
+confirmar;seguir
+confirmar;prosseguir
+confirmar;confirmar
+confirmar;confirmo
+confirmar;concordo
+agradecimento;obrigado
+agradecimento;agradecido
+agradecimento;gracias
+agradecimento;muito obrigado
+agradecimento;brigado
+agradecimento;brigadão
+agradecimento;agradeço
+agradecimento;mutias gracias
+agradecimento;agradecido
+saida;tchau
+saida;até
+saida;até mais
+saida;tchau tchau
+saida;fui
+saida;valeu
+saida;vlw falou
+saida;falou
+saida;chau
+saida;até
+saida;xau
+saida;xau xau
+=======
+﻿saudacao;Bom dia
+saudacao;Boa tarde
+saudacao;bom dia tudo bem?
+saudacao;Olá tudo certo?
+saudacao;Bom dia, tudo certinho?
+saudacao;Boa noite
+saudacao;Bom dia tudo bem?
+saudacao;Olá
+saudacao;Oi
+saudacao;tarde boa
+saudacao;tarde
+saudacao;alo
+saudacao;ois
+saudacao;oie, tá ai?
+saudacao;Bom dia, tudo bem?
+saudacao;Tudo certo?
+saudacao;Bão?
+saudacao;tudo bem?
+saudacao;como vai você?
+tabela;quais são os valores dos seus produtos?
+tabela;qual os valores de produtos?
+tabela;qual os preços das polpas?
+tabela;tabela de produtos
+tabela;manda pra mim a tabelinha de valores
+tabela;quero a sua tabela de preços
+tabela;quanto é seus produtos
+tabela;quais os valores das polpa
+tabela;tem cardápio ai?
+tabela;quanto é cada polpinha
+tabela;quanto é o pacote de polpa
+tabela;gostaria de saber os valores dos produtos
+tabela;queria saber os valores
+tabela;quanto tá cada polpa?
+tabela;quais os sabores que tem?
+tabela;qual polpa tem aí?
+tabela;tem cardápio
+tabela;manda o cardápio
+tabela;tem um catálogozinho
+tabela;manda pra mim o catalgo de produtos
+tabela;lista de produtos?
+tabela;manda um cardápio
+tabela;pode me mandar a tabela de preços
+tabela;me envia a tabela de valores dos produtos seus
+tabela;envia pra mim a tabela de preços
+tabela;menu
+tabela;tem menu
+tabela;quero o menu
+pedido;eu quero
+pedido;quero
+pedido;pedir
+pedido;Manda pra mim um abacaxi com hortelã e dois cajus
+pedido;queria dois pacotes de acerola
+pedido;quero 5 pct de maracujá
+pedido;queria 1 und de cupuaçu
+pedido;quero 9 pacotes de laranja e 2 pct de abacaxi
+pedido;4 morango 3 laranja com acerola
+pedido;2 abacaxi c hortela 5 acerola laranja
+pedido;dois morangos e uma goiaba
+pedido;um pacote de tangerina e uma polpinha de goiaba
+pedido;3 caju e 4 caja
+pedido;três pacotes de acerola e quatro abacaxi
+pedido;2 pct de abacaxi e um pct de amora
+pedido;manda pra mim dois cupuaçu
+pedido;duas un de abacaxi e tres pacotes de manga
+pedido;sete unid de tangerina
+pedido;oito und de abacaxi
+pedido;cinco pacote de caju
+pedido;10 pc de abacaxi com hortela
+pedido;3 pact de manga
+pedido;dois pacotes de acerola
+pedido;me ve três pcts de uva
+pedido;manda pra mim duas frutas vermelhas
+pedido;cinco tamarindos
+pedido;quatro mangas
+pedido;cinco acerola com laranja
+pedido;duas acerolas
+pedido;treze abacaxi hortela
+conta;conta
+conta;quanto a conta
+conta;conta foi quanto
+conta;conta por favor
+conta;conta deu
+conta;deu quanto minha conta
+conta;a conta por favor
+conta;soma pra mim minha conta
+conta;total
+conta;total pra fechar
+conta;fecha aqui
+conta;fechando
+conta;total quanto
+conta;quanto deu no total
+conta;soma tudo e fecha
+conta;soma meu pedido e fecha
+conta;meu total saiu quanto
+conta;soma pra gente quanto foi minha conta
+conta;daí fica quanto a conta
+conta;ficou qual valor a conta
+conta;quero pagar a minha conta
+conta;queria finalizar minha compra
+conta;finaliza a minha compra
+conta;fecha pra mim minha compra
+conta;fecha meu pedido por favor
+conta;fecha e soma meu pedido fazendo favor
+conta;fecha pra nos
+conta;soma meu pedido
+conta;fechou
+conta;finaliza
+conta;final
+conta;continha
+conta;fecha
+cancelar;Não
+cancelar;Cancela
+cancelar;cancelar
+cancelar;vou mais não
+cancelar;desisto
+cancelar;desisti
+cancelar;não precisa mais
+cancelar;eu não mais o pedido
+cancelar;eu não vou mais os produtos
+cancelar;no
+confirmar;sim
+confirmar;ok
+confirmar;sim por favor
+confirmar;isso
+confirmar;aham
+confirmar;uhum
+confirmar;uhn
+confirmar;sim
+confirmar;só
+confirmar;segue
+confirmar;seguir
+confirmar;prosseguir
+confirmar;confirmar
+confirmar;confirmo
+confirmar;concordo
+agradecimento;obrigado
+agradecimento;agradecido
+agradecimento;gracias
+agradecimento;muito obrigado
+agradecimento;brigado
+agradecimento;brigadão
+agradecimento;agradeço
+agradecimento;mutias gracias
+agradecimento;agradecido
+saida;tchau brigado
+saida;tchau tchau
+saida;fui
+saida;valeu
+saida;vlw falou
+saida;falou
+>>>>>>> Stashed changes
