@@ -28,7 +28,7 @@ class Bot:
         self.listaRespostas = self.buildAnswers()
         self.classificador = self.setClassificador(classificador)
         self.vectorizer = TfidfVectorizer(sublinear_tf = True, max_df = 0.5, strip_accents = 'unicode')
-
+        self.numeroConta = choice(range(1000, 9999))
         self.fit()
 
     def buildAnswers(self):
@@ -204,7 +204,7 @@ class Bot:
             print('Você não possui itens no carrinho. Que tal realizar algumas compras?')
 
         else:
-            print('{h} Pedido número {p} {h}'.format(h = '=' * 8, p = choice(range(1000, 9999))))
+            print('{h} Pedido número {p} {h}'.format(h = '=' * 8, p = self.numeroConta))
             print('#.\tProduto\t\t\tQtd.\t R$')
             print('-' * explode)
             index = 1

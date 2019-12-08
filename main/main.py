@@ -63,6 +63,7 @@ def main():
 
         elif int in 'conta':
             bot.fecharConta()
+            print(bot.escolherResposta('continuidade'))
 
         elif int in 'tabela':
             print(bot.escolherResposta('tabela'))
