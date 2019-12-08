@@ -2,6 +2,7 @@ __author__ = 'Marco Almeida and André Furlan'
 
 from bot.bot import Bot
 
+
 def main():
     bot = Bot('../files/dialogo.csv')
     print('{h} Bem vindo a SJN Polpas {h}\n'.format(h = '#' * 8))
@@ -32,6 +33,7 @@ def main():
 
         if loop is True:
             print('\n{}'.format(bot.escolherResposta('continuidade')))
+
 
 if __name__ == '__main__':
     main()
