@@ -1,10 +1,13 @@
 __author__ = 'Marco Almeida and André Furlan'
 
 from bot.bot import Bot
+import datetime
 import random
 
 def tratarSaudacao():
-    import datetime
+    """
+    Função de tratamento horário
+    """
     now = datetime.datetime.now()
     hour = now.hour
 
@@ -18,6 +21,9 @@ def tratarSaudacao():
     return greeting
 
 def main():
+    """
+    Função main
+    """
     bot = Bot()
     print('{h} Bem vindo a SJN Polpas {h}\n'.format(h = '#' * 8))
     print(bot.escolherResposta('boasvindas'))
@@ -81,9 +87,6 @@ def main():
 
             else:
                 print(bot.escolherResposta('continuidade'))
-
-        # if loop is True:
-        #     print('\n{}'.format(bot.escolherResposta('continuidade')))
 
 
 if __name__ == '__main__':
