@@ -11,7 +11,7 @@ from sklearn.linear_model import LogisticRegression
 
 
 class Bot:
-    def __init__(self, arquivo, classificador = 'knn'):
+    def __init__(self, classificador = 'knn'):
         self.dialogos = list()
         self.intencoes = list()
         self.cart = list()
@@ -23,7 +23,7 @@ class Bot:
         self.classificador = self.setClassificador(classificador)
         self.vectorizer = TfidfVectorizer(sublinear_tf = True, max_df = 0.5, strip_accents = 'unicode')
 
-        self.fit(arquivo)
+        self.fit()
 
     def buildAnswers(self):
         a = dict()
@@ -56,7 +56,7 @@ class Bot:
 
     def adicionarCarrinho(self, listaProduto, listaQuantidade):
         for index in range(len(listaProduto)):
-            preco = self.listaProdutosPreco.get(listaProduto[index])
+            preco = self.listaProdutosPreco.get(listaProduto[index].lower())
             p = dict()
             p[listaProduto[index]] = [listaQuantidade[index], listaQuantidade[index] * preco]
             self.cart.append(p)
@@ -66,7 +66,7 @@ class Bot:
         pass
 
     def validarPedido(self, frase):
-        palavras = frase.split(' ')
+        palavras = frase.lower().split(' ')
         quantidade = None
         produto = None
         multiplicador = 1
@@ -105,7 +105,7 @@ class Bot:
         with open('../files/produtos.csv', 'r', encoding = 'utf-8-sig') as file:
             for line in file:
                 chave, valor = line.replace('\n', '').replace(' ', '').split(';')
-                p[chave] = valor
+                p[chave.lower()] = valor
 
         return p
 
@@ -136,10 +136,19 @@ class Bot:
 
         return p
 
+    def totalItemsInCart(self):
+        return len(self.cart)
+
     def fecharConta(self):
-        if len(self.cart) > 0:
+        explode = 36
+
+        if self.totalItemsInCart() == 0:
+            print('Você não possui itens no carrinho. Que tal realizar algumas compras?')
+
+        else:
             print('{h} Pedido número {p} {h}'.format(h = '=' * 8, p = choice(range(1000, 9999))))
-            print('#.\tproduto\t\t\tQtd.\tR$')
+            print('#.\tProduto\t\t\tQtd.\tR$')
+            print('-' * explode)
             index = 1
             total = 0
             for item in self.cart:
@@ -147,9 +156,9 @@ class Bot:
                     print('{}.\t{} \t\t{}\t\t{:.2f}'.format(index, key, value[0], value[1]))
                     index += 1
                     total += value[1]
-            print('-' * 36)
+            print('-' * explode)
             print('Total.\t\t\t\t\t\t{:.2f}'.format(total))
-            print('=' * 36)
+            print('=' * explode)
 
     def setClassificador(self, x):
         if x in 'tree':
@@ -169,8 +178,8 @@ class Bot:
     def predict(self, texto):
         return self.classificador.predict(self.vectorizer.transform([texto]))
 
-    def fit(self, arquivo):
-        with open(arquivo, 'r', encoding = 'utf-8-sig') as file:
+    def fit(self):
+        with open('../files/dialogo.csv', 'r', encoding = 'utf-8-sig') as file:
             for line in file:
                 s = line.replace('\n', '').split(';')
                 self.intencoes.append(s[0])

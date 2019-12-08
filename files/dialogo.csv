@@ -75,36 +75,36 @@ pedido;treze abacaxi hortela
 conta;conta
 conta;quanto a conta
 conta;conta foi quanto
-conta;conta por favor
+saida;conta por favor
 conta;conta deu
 conta;deu quanto minha conta
-conta;a conta por favor
+saida;a conta por favor
 conta;soma pra mim minha conta
 conta;total
 conta;total pra fechar
-conta;fecha aqui
-conta;fechando
+saida;fecha aqui
+saida;fechando
 conta;total quanto
 conta;quanto deu no total
-conta;soma tudo e fecha
-conta;soma meu pedido e fecha
+saida;soma tudo e fecha
+saida;soma meu pedido e fecha
 conta;meu total saiu quanto
 conta;soma pra gente quanto foi minha conta
 conta;daí fica quanto a conta
 conta;ficou qual valor a conta
-conta;quero pagar a minha conta
-conta;queria finalizar minha compra
-conta;finaliza a minha compra
-conta;fecha pra mim minha compra
-conta;fecha meu pedido por favor
-conta;fecha e soma meu pedido fazendo favor
-conta;fecha pra nos
+saida;quero pagar a minha conta
+saida;queria finalizar minha compra
+saida;finaliza a minha compra
+saida;fecha pra mim minha compra
+saida;fecha meu pedido por favor
+saida;fecha e soma meu pedido fazendo favor
+saida;fecha pra nos
 conta;soma meu pedido
-conta;fechou
-conta;finaliza
-conta;final
+saida;fechou
+saida;finaliza
+saida;final
 conta;continha
-conta;fecha
+saida;fecha
 cancelar;Não
 cancelar;Cancela
 cancelar;cancelar
@@ -151,3 +151,9 @@ saida;até
 saida;xau
 saida;xau xau
 saida;falou
+saida;sair
+saida;finalizar
+saida;fechar
+saida;fechar conta
+saida;pagar
+saida;encerrar

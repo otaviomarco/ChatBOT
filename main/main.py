@@ -4,7 +4,7 @@ from bot.bot import Bot
 
 
 def main():
-    bot = Bot('../files/dialogo.csv')
+    bot = Bot()
     print('{h} Bem vindo a SJN Polpas {h}\n'.format(h = '#' * 8))
     print(bot.escolherResposta('saudacao'))
 
@@ -28,7 +28,12 @@ def main():
             bot.showMenu()
 
         elif int in 'saida':
-            bot.fecharConta()
+            if bot.totalItemsInCart() > 0:
+                print('O total da sua conta deu...')
+                bot.fecharConta()
+                print('Favor dirigir-se ao caixa!')
+
+            print(bot.escolherResposta('agradecimento'))
             loop = False
 
         if loop is True:
