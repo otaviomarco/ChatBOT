@@ -12,12 +12,12 @@ O ***Chatbot*** realiza o aprendizado das intenções e possui frases de respost
 - 4 - A interação é interpretada e conforme a intenção associada toma-se comportamentos condizentes as intenções.
 - 5 - Saudações: são respondidas com uma saudação e informando que esta pronto para receber pedidos.
 - 6 - Pedido: são adicionados os pedidos solicitados pelos usuários.
-- 7 - tabela: são retornados os produtos do cardápio/tabela de preços.
-- 8 - conta: são retornados os valores referente aos itens que foi adicionados pelo usuário via pedidos.
-- 9 - confirmar: é interpretado a afirmação de alguma pergunta feita pelo Chatbot ao usuário.
-- 10 - cancelar: é interpretado a negação de alguma sentença solicitada pelo Chatbot ao usuário.
-- 11 - agradecimento: é identificado o agradecimento do usuário e respondido com um agradecimento.
-- 12 - saida: é retornado com um agradecimento ou caso tenha conta em aberto é tratado o fechamento de sua compra.
+- 7 - Tabela: são retornados os produtos do cardápio/tabela de preços.
+- 8 - Conta: são retornados os valores referente aos itens que foi adicionados pelo usuário via pedidos.
+- 9 - Confirmar: é interpretado a afirmação de alguma pergunta feita pelo Chatbot ao usuário.
+- 10 - Cancelar: é interpretado a negação de alguma sentença solicitada pelo Chatbot ao usuário.
+- 11 - Agradecimento: é identificado o agradecimento do usuário e respondido com um agradecimento.
+- 12 - Saida: é retornado com um agradecimento ou caso tenha conta em aberto é tratado o fechamento de sua compra.
 - 13 - O passo 5 pode ser pulado mediante a uma intenção de pedido ao inves da intenção de saudação.
 
 ## Exemplos de uso
