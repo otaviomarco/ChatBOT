@@ -18,22 +18,22 @@ O ***Chatbot*** realiza o aprendizado das intenções e possui frases de respost
 - 10 - cancelar: é interpretado a negação de alguma sentença solicitada pelo Chatbot ao usuário.
 - 11 - agradecimento: é identificado o agradecimento do usuário e respondido com um agradecimento.
 - 12 - saida: é retornado com um agradecimento ou caso tenha conta em aberto é tratado o fechamento de sua compra.
-- 13 - o passo 5 pode ser pulado mediante a uma intenção de pedido ao inves da intenção de saudação.
+- 13 - O passo 5 pode ser pulado mediante a uma intenção de pedido ao inves da intenção de saudação.
 
 ## Exemplos de uso
 
 - 1 - Bom dia
 - < Bem vindo à SJN Polpas. Em que posso lhe atender?
 - 2 - Quero uma goiaba duas acerolas e cinco mangas.
-- < certo, pedido anotado. Algo mais?
+- < Certo, pedido anotado. Algo mais?
 - 3 - 2 pacotes de abacaxi
 - < Maravilha... algo a mais?
-- 3 - pode fechar a conta.
+- 3 - Pode fechar a conta.
 - < Vou fechar sua conta, um instante por favor.
 - < **** conta ****
-- 4 - obrigado
+- 4 - Obrigado
 - < Muito obrigada! =)
-- 5 - tchau
+- 5 - Tchau
 - < Até mais ver. =)
 - < Agradecida!
 
@@ -43,19 +43,19 @@ O ***Chatbot*** realiza o aprendizado das intenções e possui frases de respost
 - < Certo!
 - 3 - Quero um pacote de tamarindo
 - < Certo, pedido anotado. Algo mais?
-- 4 - mais dois pacotes de morango.
+- 4 - Mais dois pacotes de morango.
 - < Algo a mais ?
-- 5 - pode mandar a conta
+- 5 - Pode mandar a conta
 - < Deixa eu somar, rapidinho...
 - < **** conta ****
-- 6 - brigado!
+- 6 - Brigado!
 - < Muito obrigada pela preferência. ^_^
 - 7 - Até mais
 - < Até um outro dia.
 
 - 1 - Olá tudo bem?Bem vindo(a) à SJN Polpas, posso anotar o seu pedido?
 - < Bem vindo(a) à SJN Polpas, posso anotar o seu pedido?
-- 2 - quero dois abacaxis e um pacote de goiaba
+- 2 - Quero dois abacaxis e um pacote de goiaba
 - < Tudo bem, algo a mais senhor(a)?
 - 3 - Total
 - < Vou ver pra você o valor total.
