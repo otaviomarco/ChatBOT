@@ -1,4 +1,8 @@
 saudacao;Bom dia
+saudacao;dia
+saudacao;noite
+saudacao;tarde
+saudacao;tade
 saudacao;Boa tarde
 saudacao;bom dia tudo bem?
 saudacao;Olá tudo certo?
@@ -17,34 +21,103 @@ saudacao;Tudo certo?
 saudacao;Bão?
 saudacao;tudo bem?
 saudacao;como vai você?
-tabela;quais são os valores dos seus produtos?
-tabela;qual os valores de produtos?
-tabela;qual os preços das polpas?
+tabela;produtos?
+tabela;valores?
+tabela;preços das polpas?
 tabela;tabela de produtos
-tabela;manda pra mim a tabelinha de valores
-tabela;quero a sua tabela de preços
-tabela;quanto é seus produtos
-tabela;quais os valores das polpa
-tabela;tem cardápio ai?
-tabela;quanto é cada polpinha
-tabela;quanto é o pacote de polpa
-tabela;gostaria de saber os valores dos produtos
-tabela;queria saber os valores
+tabela;tabelinha de valores
+tabela;tabela de preços
+tabela;quanto produtos
+tabela;cardápio?
+tabela;quanto polpinha
+tabela;quanto pacote polpa
+tabela;valores dos produtos
+tabela;valor dos produtos
 tabela;quanto tá cada polpa?
-tabela;quais os sabores que tem?
-tabela;qual polpa tem aí?
+tabela;sabores
+tabela;cardapio
+tablea;cardápio
 tabela;tem cardápio
 tabela;manda o cardápio
-tabela;tem um catálogozinho
-tabela;manda pra mim o catalgo de produtos
-tabela;lista de produtos?
+tabela;catalogo
+tabela;catálogozinho
+tabela;catalgo de produtos
+tabela;lista de produtos
 tabela;manda um cardápio
-tabela;pode me mandar a tabela de preços
-tabela;me envia a tabela de valores dos produtos seus
+tabela;cardapiozinho
+tabela;menu
+tabela;menu de polpas
+tabela;tabela
+tabela;tabelinha
+tabela;preço
+tabela;preco dos produtos
+tabela;quanto custa cada produto
+tabela;qual valor dos produtos
+tabela;manda a tabela de preços
+tabela;envia a tabela dos produtos
 tabela;envia pra mim a tabela de preços
-pedido;eu quero
-pedido;quero
-pedido;pedir
+inicio;eu fazer um pedido
+inicio;eu pedir uma polpa
+inicio;pedir umas polpas
+inicio;posso pedir umas polpas?
+inicio;eu pedir umas polpas...
+inicio;fazer um pedido de polpa de fruta
+inicio;fazer um pedido de polpa
+inicio;pedido
+inicio;pedir
+inicio;fazer um pedido de polpa
+inicio;desejo uma polpa
+inicio;desejo polpa de fruta
+pedido;abacaxi
+pedido;abacaxi com hortelã
+pedido;açaí
+pedido;acerola
+pedido;acerola com laranja
+pedido;amora
+pedido;cacau
+pedido;cajá
+pedido;caju
+pedido;cupuaçu
+pedido;framboesa
+pedido;frutas verdes
+pedido;frutas vermelhas
+pedido;goiaba
+pedido;graviola
+pedido;kiwi
+pedido;laranja
+pedido;limão
+pedido;manga
+pedido;maracujá
+pedido;morango
+pedido;tamarindo
+pedido;tangerina
+pedido;umbu
+pedido;uva
+pedido;abacaxis
+pedido;abacaxi com hortelãs
+pedido;açaís
+pedido;acerolas
+pedido;acerola com laranjas
+pedido;amoras
+pedido;cacaus
+pedido;cajás
+pedido;cajus
+pedido;cupuaçus
+pedido;framboesas
+pedido;frutas verdess
+pedido;frutas vermelhass
+pedido;goiabas
+pedido;graviolas
+pedido;kiwis
+pedido;laranjas
+pedido;limãos
+pedido;mangas
+pedido;maracujás
+pedido;morangos
+pedido;tamarindos
+pedido;tangerinas
+pedido;umbus
+pedido;uvas
 pedido;Manda pra mim um abacaxi com hortelã e dois cajus
 pedido;queria dois pacotes de acerola
 pedido;quero 5 pct de maracujá
@@ -73,46 +146,34 @@ pedido;cinco acerola com laranja
 pedido;duas acerolas
 pedido;treze abacaxi hortela
 conta;conta
+conta;a conta
 conta;quanto a conta
 conta;conta foi quanto
-saida;conta por favor
+conta;conta por favor
 conta;conta deu
-conta;deu quanto minha conta
-saida;a conta por favor
-conta;soma pra mim minha conta
+conta;minha conta
+conta;a conta por favor
+conta;soma a conta
 conta;total
-conta;total pra fechar
-saida;fecha aqui
-saida;fechando
+conta;total conta
 conta;total quanto
-conta;quanto deu no total
-saida;soma tudo e fecha
-saida;soma meu pedido e fecha
-conta;meu total saiu quanto
-conta;soma pra gente quanto foi minha conta
-conta;daí fica quanto a conta
-conta;ficou qual valor a conta
-saida;quero pagar a minha conta
-saida;queria finalizar minha compra
-saida;finaliza a minha compra
-saida;fecha pra mim minha compra
-saida;fecha meu pedido por favor
-saida;fecha e soma meu pedido fazendo favor
-saida;fecha pra nos
-conta;soma meu pedido
-saida;fechou
-saida;finaliza
-saida;final
+conta;soma total
+conta;soma tudo
+conta;total
+conta;meu total deu quanto
+conta;soma minha conta
+conta;quanto deu a conta
+conta;conta
 conta;continha
-saida;fecha
+conta;fecha a conta
 cancelar;Não
 cancelar;Cancela
 cancelar;cancelar
-cancelar;vou não
+cancelar;não
 cancelar;desisto
 cancelar;desisti
-cancelar;eu não mais o pedido
-cancelar;eu não vou mais os produtos
+cancelar;negativo
+cancelar;naum
 cancelar;no
 confirmar;sim
 confirmar;ok
@@ -138,22 +199,28 @@ agradecimento;brigadão
 agradecimento;agradeço
 agradecimento;mutias gracias
 agradecimento;agradecido
+agradecimento;valeu
+agradecimento;vlw
 saida;tchau
-saida;até
-saida;até mais
 saida;tchau tchau
 saida;fui
-saida;valeu
-saida;vlw falou
+saida;flw
 saida;falou
 saida;chau
-saida;até
 saida;xau
 saida;xau xau
 saida;falou
+saida;falo
 saida;sair
+saida;saida
+saida;sai
+saida;finaliza
 saida;finalizar
+saida;fecha
 saida;fechar
-saida;fechar conta
-saida;pagar
-saida;encerrar
+saida;fecha pra mim
+saida;fechou
+saida;finaliza
+saida;final
+saida;sair
+saida;saida

@@ -75,6 +75,7 @@ class Bot:
         quantidade = None
         produto = None
         multiplicador = 1
+        adicionou = False
 
         lista_quantidades = list()
         lista_produtos = list()
@@ -97,6 +98,7 @@ class Bot:
             if produto is not None:
                 lista_quantidades.append(int(quantidade) * multiplicador)
                 lista_produtos.append(produto)
+                adicionou = True
 
                 index += 1
                 quantidade = None
@@ -104,6 +106,8 @@ class Bot:
                 multiplicador = 1
 
         self.adicionarCarrinho(lista_produtos, lista_quantidades)
+
+        return adicionou
 
     def buildProductList(self):
         p = dict()
@@ -145,6 +149,9 @@ class Bot:
         return len(self.cart)
 
     def fecharConta(self):
+
+        print(self.escolherResposta('conta'))
+
         explode = 36
 
         if self.totalItemsInCart() == 0:
