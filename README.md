@@ -2,6 +2,7 @@
 
 Seja bem vindo ao arquivo de ajuda do chatbot. à seguir teremos o seu funcionamento e como se dá alguns exemplos de sua utilização.
 
+Esse projeto foi realizado com como trabalho semestral da disciplina de Inteligência Artificial minitrada pelo Dr. professor Edson Takashi Matsubara (UFMS - Facom).
 
 # Funcionamento
 
